@@ -17,14 +17,14 @@
 
 
 ## What I learned
-- Learned how to fetch data from api
+- Learned how to fetch data from [theCatApi](https://thecatapi.com/)
 
 ## Time taken
 - It took me around 1 hours to built this website from scratch.
 
 ## Links
-- [live demo](.)
-- [source](.)
+- [live demo](https://cat-random-images.netlify.app/)
+- [source](https://github.com/RAM844/Cat-image-generator-)
 
 
 ## Contact me

@@ -55,3 +55,7 @@ body h1{
 .cute-cat{
     width: 250px;
 }
+.right-col p {
+    cursor: pointer;
+
+}
