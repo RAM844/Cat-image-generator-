@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./assets/cat-img.png" type="image/x-icon">
+</head>
+<body>
+    <div class="left-col">
+    <h2>Made by <a href="https://twitter.com/ShriramBalaji7">Shriram</a> while learning Javascript </h2>
+
+    <img src="./assets/cat-img.png" alt="cat-img" class="cute-cat">
+
+    <div class="btn-heading">
+        <button 
+    class="bt1"  
+    onclick="document.getElementById('sound1').play();">
+    Generate
+    </button>
+        <h1>  To see cute and random cat images, click on generate. 🐈</h1>
+    
+    <audio id="sound1" src="./assets/Cute-cat-meow-sound.mp3" preload="auto"></audio>
+    </div>
+    
+    </div>
+
+    <div class="right-col">
+        <div class="cats-image-div"></div>
+    </div>
+    
+    <script src="./script/script.js"></script>
+</body>
+</html>
